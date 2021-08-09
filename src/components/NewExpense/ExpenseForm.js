@@ -1,17 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ExpenseForm.css";
 
 const ExpenseForm = () => {
-  
-
-  
-
   return (
     <form>
       <div className="new-expense__controls">
         <div className="new-expense__control">
           <label>Title</label>
-          <input type="text" onChange={} />
+          <input type="text" />
         </div>
         <div className="new-expense__control">
           <label>Amount</label>
